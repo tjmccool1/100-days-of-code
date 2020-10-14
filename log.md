@@ -1,5 +1,6 @@
 # 100 Days Of Code - Log
 
+<!-- 
 ### Day 0: February 30, 2016 (Example 1)
 ##### (delete me or comment me out)
 
@@ -28,3 +29,32 @@
 **Link(s) to work**
 1. [Find the Longest Word in a String](https://www.freecodecamp.com/challenges/find-the-longest-word-in-a-string)
 2. [Title Case a Sentence](https://www.freecodecamp.com/challenges/title-case-a-sentence)
+ -->
+
+### Day 0: 12 October 2020
+
+**Today's Progress**: Comitted to the challenge. started setting up mac for dev again.
+
+**Thoughts:** Amazing how much I forgot and remembered. also need to speed up and stay on task :)
+
+### Day 1: 13 October 2020
+
+**Today's Progress**: decided that i am going to go back through Codeup work and restart FreeCodeCamp. Still working on setting up again.
+
+
+**Thoughts:** staying on task is stilll difficult for me and i need to remember how to us git and git hub. Also figuring out which editor to use is not fun. so far BBedit is my goto but i am going to try to work with and learn different ones.
+
+### Day 2: 14 October 2020
+
+**Today's Progress:** figured out a bit of markdown lang again; making first commit in a long time. 
+
+**Thoughts:** now i wonder if i remember how....
+
+
+
+
+
+
+
+
+
