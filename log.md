@@ -48,7 +48,17 @@
 
 **Today's Progress:** figured out a bit of markdown lang again; making first commit in a long time. 
 
-**Thoughts:** now i wonder if i remember how....
+**Thoughts:** now i wonder if i remember how.... 
+
+cd Documents/100-days-of-code
+git status
+git add log.md
+git commit -m "comments"
+Oh and now i remember to create my own branch.
+git branch mine
+git checkout mine
+
+
 
 
 
