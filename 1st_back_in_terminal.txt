@@ -1,0 +1,754 @@
+first time back in the Terminal
+
+todo: check on MySQL
+		
+
+Last login: Mon Oct 12 23:46:28 on ttys000
+thomasmccool@thomass-mbp ~ % /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+Password:
+==> This script will install:
+/usr/local/bin/brew
+/usr/local/share/doc/homebrew
+/usr/local/share/man/man1/brew.1
+/usr/local/share/zsh/site-functions/_brew
+/usr/local/etc/bash_completion.d/brew
+/usr/local/Homebrew
+==> The following existing directories will be made group writable:
+/usr/local/bin
+/usr/local/share
+/usr/local/share/man
+/usr/local/share/man/man8
+==> The following existing directories will have their owner set to thomasmccool:
+/usr/local/bin
+/usr/local/share
+/usr/local/share/man
+/usr/local/share/man/man8
+==> The following existing directories will have their group set to admin:
+/usr/local/bin
+/usr/local/share
+/usr/local/share/man
+/usr/local/share/man/man8
+==> The following new directories will be created:
+/usr/local/etc
+/usr/local/include
+/usr/local/lib
+/usr/local/sbin
+/usr/local/var
+/usr/local/opt
+/usr/local/share/zsh
+/usr/local/share/zsh/site-functions
+/usr/local/var/homebrew
+/usr/local/var/homebrew/linked
+/usr/local/Cellar
+/usr/local/Caskroom
+/usr/local/Homebrew
+/usr/local/Frameworks
+==> The Xcode Command Line Tools will be installed.
+
+Press RETURN to continue or any other key to abort
+==> /usr/bin/sudo /bin/chmod u+rwx /usr/local/bin /usr/local/share /usr/local/share/man /usr/local/share/man/man8
+==> /usr/bin/sudo /bin/chmod g+rwx /usr/local/bin /usr/local/share /usr/local/share/man /usr/local/share/man/man8
+==> /usr/bin/sudo /usr/sbin/chown thomasmccool /usr/local/bin /usr/local/share /usr/local/share/man /usr/local/share/man/man8
+==> /usr/bin/sudo /usr/bin/chgrp admin /usr/local/bin /usr/local/share /usr/local/share/man /usr/local/share/man/man8
+==> /usr/bin/sudo /bin/mkdir -p /usr/local/etc /usr/local/include /usr/local/lib /usr/local/sbin /usr/local/var /usr/local/opt /usr/local/share/zsh /usr/local/share/zsh/site-functions /usr/local/var/homebrew /usr/local/var/homebrew/linked /usr/local/Cellar /usr/local/Caskroom /usr/local/Homebrew /usr/local/Frameworks
+==> /usr/bin/sudo /bin/chmod g+rwx /usr/local/etc /usr/local/include /usr/local/lib /usr/local/sbin /usr/local/var /usr/local/opt /usr/local/share/zsh /usr/local/share/zsh/site-functions /usr/local/var/homebrew /usr/local/var/homebrew/linked /usr/local/Cellar /usr/local/Caskroom /usr/local/Homebrew /usr/local/Frameworks
+==> /usr/bin/sudo /usr/sbin/chown thomasmccool /usr/local/etc /usr/local/include /usr/local/lib /usr/local/sbin /usr/local/var /usr/local/opt /usr/local/share/zsh /usr/local/share/zsh/site-functions /usr/local/var/homebrew /usr/local/var/homebrew/linked /usr/local/Cellar /usr/local/Caskroom /usr/local/Homebrew /usr/local/Frameworks
+==> /usr/bin/sudo /usr/bin/chgrp admin /usr/local/etc /usr/local/include /usr/local/lib /usr/local/sbin /usr/local/var /usr/local/opt /usr/local/share/zsh /usr/local/share/zsh/site-functions /usr/local/var/homebrew /usr/local/var/homebrew/linked /usr/local/Cellar /usr/local/Caskroom /usr/local/Homebrew /usr/local/Frameworks
+==> /usr/bin/sudo /bin/mkdir -p /Users/thomasmccool/Library/Caches/Homebrew
+==> /usr/bin/sudo /bin/chmod g+rwx /Users/thomasmccool/Library/Caches/Homebrew
+==> /usr/bin/sudo /usr/sbin/chown thomasmccool /Users/thomasmccool/Library/Caches/Homebrew
+==> Searching online for the Command Line Tools
+==> /usr/bin/sudo /usr/bin/touch /tmp/.com.apple.dt.CommandLineTools.installondemand.in-progress
+==> Installing Command Line Tools for Xcode-12.0
+==> /usr/bin/sudo /usr/sbin/softwareupdate -i Command\ Line\ Tools\ for\ Xcode-12.0
+Software Update Tool
+
+
+Downloading Command Line Tools for Xcode
+Downloaded Command Line Tools for Xcode
+Installing Command Line Tools for Xcode
+Done with Command Line Tools for Xcode
+Done.
+==> /usr/bin/sudo /bin/rm -f /tmp/.com.apple.dt.CommandLineTools.installondemand.in-progress
+==> /usr/bin/sudo /usr/bin/xcode-select --switch /Library/Developer/CommandLineTools
+==> Downloading and installing Homebrew...
+remote: Enumerating objects: 48, done.
+remote: Counting objects: 100% (48/48), done.
+remote: Compressing objects: 100% (48/48), done.
+remote: Total 156762 (delta 0), reused 46 (delta 0), pack-reused 156714
+Receiving objects: 100% (156762/156762), 39.94 MiB | 9.02 MiB/s, done.
+Resolving deltas: 100% (115975/115975), done.
+From https://github.com/Homebrew/brew
+ * [new branch]      master     -> origin/master
+ * [new tag]             0.1        -> 0.1
+ * [new tag]             0.2        -> 0.2
+ * [new tag]             0.3        -> 0.3
+ * [new tag]             0.4        -> 0.4
+ * [new tag]             0.5        -> 0.5
+ * [new tag]             0.6        -> 0.6
+ * [new tag]             0.7        -> 0.7
+ * [new tag]             0.7.1      -> 0.7.1
+ * [new tag]             0.8        -> 0.8
+ * [new tag]             0.8.1      -> 0.8.1
+ * [new tag]             0.9        -> 0.9
+ * [new tag]             0.9.1      -> 0.9.1
+ * [new tag]             0.9.2      -> 0.9.2
+ * [new tag]             0.9.3      -> 0.9.3
+ * [new tag]             0.9.4      -> 0.9.4
+ * [new tag]             0.9.5      -> 0.9.5
+ * [new tag]             0.9.8      -> 0.9.8
+ * [new tag]             0.9.9      -> 0.9.9
+ * [new tag]             1.0.0      -> 1.0.0
+ * [new tag]             1.0.1      -> 1.0.1
+ * [new tag]             1.0.2      -> 1.0.2
+ * [new tag]             1.0.3      -> 1.0.3
+ * [new tag]             1.0.4      -> 1.0.4
+ * [new tag]             1.0.5      -> 1.0.5
+ * [new tag]             1.0.6      -> 1.0.6
+ * [new tag]             1.0.7      -> 1.0.7
+ * [new tag]             1.0.8      -> 1.0.8
+ * [new tag]             1.0.9      -> 1.0.9
+ * [new tag]             1.1.0      -> 1.1.0
+ * [new tag]             1.1.1      -> 1.1.1
+ * [new tag]             1.1.10     -> 1.1.10
+ * [new tag]             1.1.11     -> 1.1.11
+ * [new tag]             1.1.12     -> 1.1.12
+ * [new tag]             1.1.13     -> 1.1.13
+ * [new tag]             1.1.2      -> 1.1.2
+ * [new tag]             1.1.3      -> 1.1.3
+ * [new tag]             1.1.4      -> 1.1.4
+ * [new tag]             1.1.5      -> 1.1.5
+ * [new tag]             1.1.6      -> 1.1.6
+ * [new tag]             1.1.7      -> 1.1.7
+ * [new tag]             1.1.8      -> 1.1.8
+ * [new tag]             1.1.9      -> 1.1.9
+ * [new tag]             1.2.0      -> 1.2.0
+ * [new tag]             1.2.1      -> 1.2.1
+ * [new tag]             1.2.2      -> 1.2.2
+ * [new tag]             1.2.3      -> 1.2.3
+ * [new tag]             1.2.4      -> 1.2.4
+ * [new tag]             1.2.5      -> 1.2.5
+ * [new tag]             1.2.6      -> 1.2.6
+ * [new tag]             1.3.0      -> 1.3.0
+ * [new tag]             1.3.1      -> 1.3.1
+ * [new tag]             1.3.2      -> 1.3.2
+ * [new tag]             1.3.3      -> 1.3.3
+ * [new tag]             1.3.4      -> 1.3.4
+ * [new tag]             1.3.5      -> 1.3.5
+ * [new tag]             1.3.6      -> 1.3.6
+ * [new tag]             1.3.7      -> 1.3.7
+ * [new tag]             1.3.8      -> 1.3.8
+ * [new tag]             1.3.9      -> 1.3.9
+ * [new tag]             1.4.0      -> 1.4.0
+ * [new tag]             1.4.1      -> 1.4.1
+ * [new tag]             1.4.2      -> 1.4.2
+ * [new tag]             1.4.3      -> 1.4.3
+ * [new tag]             1.5.0      -> 1.5.0
+ * [new tag]             1.5.1      -> 1.5.1
+ * [new tag]             1.5.10     -> 1.5.10
+ * [new tag]             1.5.11     -> 1.5.11
+ * [new tag]             1.5.12     -> 1.5.12
+ * [new tag]             1.5.13     -> 1.5.13
+ * [new tag]             1.5.14     -> 1.5.14
+ * [new tag]             1.5.2      -> 1.5.2
+ * [new tag]             1.5.3      -> 1.5.3
+ * [new tag]             1.5.4      -> 1.5.4
+ * [new tag]             1.5.5      -> 1.5.5
+ * [new tag]             1.5.6      -> 1.5.6
+ * [new tag]             1.5.7      -> 1.5.7
+ * [new tag]             1.5.8      -> 1.5.8
+ * [new tag]             1.5.9      -> 1.5.9
+ * [new tag]             1.6.0      -> 1.6.0
+ * [new tag]             1.6.1      -> 1.6.1
+ * [new tag]             1.6.10     -> 1.6.10
+ * [new tag]             1.6.11     -> 1.6.11
+ * [new tag]             1.6.12     -> 1.6.12
+ * [new tag]             1.6.13     -> 1.6.13
+ * [new tag]             1.6.14     -> 1.6.14
+ * [new tag]             1.6.15     -> 1.6.15
+ * [new tag]             1.6.16     -> 1.6.16
+ * [new tag]             1.6.17     -> 1.6.17
+ * [new tag]             1.6.2      -> 1.6.2
+ * [new tag]             1.6.3      -> 1.6.3
+ * [new tag]             1.6.4      -> 1.6.4
+ * [new tag]             1.6.5      -> 1.6.5
+ * [new tag]             1.6.6      -> 1.6.6
+ * [new tag]             1.6.7      -> 1.6.7
+ * [new tag]             1.6.8      -> 1.6.8
+ * [new tag]             1.6.9      -> 1.6.9
+ * [new tag]             1.7.0      -> 1.7.0
+ * [new tag]             1.7.1      -> 1.7.1
+ * [new tag]             1.7.2      -> 1.7.2
+ * [new tag]             1.7.3      -> 1.7.3
+ * [new tag]             1.7.4      -> 1.7.4
+ * [new tag]             1.7.5      -> 1.7.5
+ * [new tag]             1.7.6      -> 1.7.6
+ * [new tag]             1.7.7      -> 1.7.7
+ * [new tag]             1.8.0      -> 1.8.0
+ * [new tag]             1.8.1      -> 1.8.1
+ * [new tag]             1.8.2      -> 1.8.2
+ * [new tag]             1.8.3      -> 1.8.3
+ * [new tag]             1.8.4      -> 1.8.4
+ * [new tag]             1.8.5      -> 1.8.5
+ * [new tag]             1.8.6      -> 1.8.6
+ * [new tag]             1.9.0      -> 1.9.0
+ * [new tag]             1.9.1      -> 1.9.1
+ * [new tag]             1.9.2      -> 1.9.2
+ * [new tag]             1.9.3      -> 1.9.3
+ * [new tag]             2.0.0      -> 2.0.0
+ * [new tag]             2.0.1      -> 2.0.1
+ * [new tag]             2.0.2      -> 2.0.2
+ * [new tag]             2.0.3      -> 2.0.3
+ * [new tag]             2.0.4      -> 2.0.4
+ * [new tag]             2.0.5      -> 2.0.5
+ * [new tag]             2.0.6      -> 2.0.6
+ * [new tag]             2.1.0      -> 2.1.0
+ * [new tag]             2.1.1      -> 2.1.1
+ * [new tag]             2.1.10     -> 2.1.10
+ * [new tag]             2.1.11     -> 2.1.11
+ * [new tag]             2.1.12     -> 2.1.12
+ * [new tag]             2.1.13     -> 2.1.13
+ * [new tag]             2.1.14     -> 2.1.14
+ * [new tag]             2.1.15     -> 2.1.15
+ * [new tag]             2.1.16     -> 2.1.16
+ * [new tag]             2.1.2      -> 2.1.2
+ * [new tag]             2.1.3      -> 2.1.3
+ * [new tag]             2.1.4      -> 2.1.4
+ * [new tag]             2.1.5      -> 2.1.5
+ * [new tag]             2.1.6      -> 2.1.6
+ * [new tag]             2.1.7      -> 2.1.7
+ * [new tag]             2.1.8      -> 2.1.8
+ * [new tag]             2.1.9      -> 2.1.9
+ * [new tag]             2.2.0      -> 2.2.0
+ * [new tag]             2.2.1      -> 2.2.1
+ * [new tag]             2.2.10     -> 2.2.10
+ * [new tag]             2.2.11     -> 2.2.11
+ * [new tag]             2.2.12     -> 2.2.12
+ * [new tag]             2.2.13     -> 2.2.13
+ * [new tag]             2.2.14     -> 2.2.14
+ * [new tag]             2.2.15     -> 2.2.15
+ * [new tag]             2.2.16     -> 2.2.16
+ * [new tag]             2.2.17     -> 2.2.17
+ * [new tag]             2.2.2      -> 2.2.2
+ * [new tag]             2.2.3      -> 2.2.3
+ * [new tag]             2.2.4      -> 2.2.4
+ * [new tag]             2.2.5      -> 2.2.5
+ * [new tag]             2.2.6      -> 2.2.6
+ * [new tag]             2.2.7      -> 2.2.7
+ * [new tag]             2.2.8      -> 2.2.8
+ * [new tag]             2.2.9      -> 2.2.9
+ * [new tag]             2.3.0      -> 2.3.0
+ * [new tag]             2.4.0      -> 2.4.0
+ * [new tag]             2.4.1      -> 2.4.1
+ * [new tag]             2.4.10     -> 2.4.10
+ * [new tag]             2.4.11     -> 2.4.11
+ * [new tag]             2.4.12     -> 2.4.12
+ * [new tag]             2.4.13     -> 2.4.13
+ * [new tag]             2.4.14     -> 2.4.14
+ * [new tag]             2.4.15     -> 2.4.15
+ * [new tag]             2.4.16     -> 2.4.16
+ * [new tag]             2.4.2      -> 2.4.2
+ * [new tag]             2.4.3      -> 2.4.3
+ * [new tag]             2.4.4      -> 2.4.4
+ * [new tag]             2.4.5      -> 2.4.5
+ * [new tag]             2.4.6      -> 2.4.6
+ * [new tag]             2.4.7      -> 2.4.7
+ * [new tag]             2.4.8      -> 2.4.8
+ * [new tag]             2.4.9      -> 2.4.9
+ * [new tag]             2.5.0      -> 2.5.0
+ * [new tag]             2.5.1      -> 2.5.1
+ * [new tag]             2.5.2      -> 2.5.2
+ * [new tag]             2.5.3      -> 2.5.3
+ * [new tag]             2.5.4      -> 2.5.4
+ * [new tag]             2.5.5      -> 2.5.5
+ * [new tag]             2.5.6      -> 2.5.6
+HEAD is now at 8437f5183 Merge pull request #8912 from Homebrew/dependabot/bundler/Library/Homebrew/rubocop-0.93.1
+==> Homebrew is run entirely by unpaid volunteers. Please consider donating:
+  https://github.com/Homebrew/brew#donations
+==> Tapping homebrew/core
+Cloning into '/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core'...
+remote: Enumerating objects: 22, done.
+remote: Counting objects: 100% (22/22), done.
+remote: Compressing objects: 100% (16/16), done.
+remote: Total 805570 (delta 13), reused 12 (delta 6), pack-reused 805548
+Receiving objects: 100% (805570/805570), 318.65 MiB | 4.10 MiB/s, done.
+Resolving deltas: 100% (540369/540369), done.
+Updating files: 100% (5549/5549), done.
+Tapped 2 commands and 5291 formulae (5,574 files, 349.8MB).
+Already up-to-date.
+==> Installation successful!
+
+==> Homebrew has enabled anonymous aggregate formulae and cask analytics.
+Read the analytics documentation (and how to opt-out) here:
+  https://docs.brew.sh/Analytics
+No analytics data has been sent yet (or will be during this `install` run).
+
+==> Homebrew is run entirely by unpaid volunteers. Please consider donating:
+  https://github.com/Homebrew/brew#donations
+
+==> Next steps:
+- Run `brew help` to get started
+- Further documentation: 
+    https://docs.brew.sh
+thomasmccool@thomass-mbp ~ % brew help
+Example usage:
+  brew search [TEXT|/REGEX/]
+  brew info [FORMULA...]
+  brew install FORMULA...
+  brew update
+  brew upgrade [FORMULA...]
+  brew uninstall FORMULA...
+  brew list [FORMULA...]
+
+Troubleshooting:
+  brew config
+  brew doctor
+  brew install --verbose --debug FORMULA
+
+Contributing:
+  brew create [URL [--no-fetch]]
+  brew edit [FORMULA...]
+
+Further help:
+  brew commands
+  brew help [COMMAND]
+  man brew
+  https://docs.brew.sh
+thomasmccool@thomass-mbp ~ % brew tap caskroom/versions
+Updating Homebrew...
+==> Auto-updated Homebrew!
+Updated 1 tap (homebrew/core).
+==> Updated Formulae
+Updated 2 formulae.
+
+Error: caskroom/versions was moved. Tap homebrew/cask-versions instead.
+thomasmccool@thomass-mbp ~ % brew Tap homebrew/cask-versions
+==> Tapping homebrew/cask-versions
+Cloning into '/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions'...
+remote: Enumerating objects: 35, done.
+remote: Counting objects: 100% (35/35), done.
+remote: Compressing objects: 100% (27/27), done.
+remote: Total 229533 (delta 16), reused 11 (delta 8), pack-reused 229498
+Receiving objects: 100% (229533/229533), 59.08 MiB | 4.17 MiB/s, done.
+Resolving deltas: 100% (157987/157987), done.
+Tapped 161 casks (208 files, 65.4MB).
+thomasmccool@thomass-mbp ~ % brew cask install java8 java
+Updating Homebrew...
+==> Tapping homebrew/cask
+Cloning into '/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask'...
+remote: Enumerating objects: 484794, done.
+remote: Total 484794 (delta 0), reused 0 (delta 0), pack-reused 484794
+Receiving objects: 100% (484794/484794), 220.99 MiB | 4.80 MiB/s, done.
+Resolving deltas: 100% (344003/344003), done.
+Tapped 1 command and 3679 casks (3,797 files, 236.8MB).
+Error: Cask 'java8' is unavailable: No Cask with this name exists.
+thomasmccool@thomass-mbp ~ % bash -c "$(curl -sS https://raw.githubusercontent.com/zgulde/codeup-setup-script/master/install.sh)"
+We are going to check if xcode and brew are installed, and if you have ssh keys setup.
+We will then setup our java development environment, including installing MySQL,
+and a mild bit of git configuration.
+
+All together we will be installing: 
+  - xcode tools   - brew
+  - java		  - maven
+  - tomcat		- mysql
+  - node
+*Note*: if you have already setup any of the above on your computer, this script will _not_
+		attempt to reinstall them, please talk to an instructor to ensure everything
+		is configured properly
+
+During this process you may be asked for your password several times. This is the password
+you use to log into your computer. When you type it in, you will not see any output in the
+terminal, this is normal.
+
+Press Enter to continue or Ctrl-C to exit
+
+We are now going to use homebrew to install java. While your mac comes
+with a version of java, it may not be the most recent version, and we want
+to make sure everyone is on the version.
+
+Press Enter to continue or Ctrl-C to exit
+
+Updating Homebrew...
+Error: caskroom/versions was moved. Tap homebrew/cask-versions instead.
+Error: Cask 'java8' is unavailable: No Cask with this name exists.
+We will now install maven, a build tool and dependency manager for java
+
+Press Enter to continue or Ctrl-C to exit
+
+==> Downloading https://homebrew.bintray.com/bottles/openjdk-14.0.1.catalina.bot
+==> Downloading from https://d29vzk4ow07wi7.cloudfront.net/d44db8c5b212a36d73f11
+######################################################################## 100.0%
+==> Downloading https://www.apache.org/dyn/closer.lua?path=maven/maven-3/3.6.3/b
+==> Downloading from https://apache.osuosl.org/maven/maven-3/3.6.3/binaries/apac
+######################################################################## 100.0%
+==> Installing dependencies for maven: openjdk
+==> Installing maven dependency: openjdk
+==> Pouring openjdk-14.0.1.catalina.bottle.tar.gz
+==> Caveats
+For the system Java wrappers to find this JDK, symlink it with
+  sudo ln -sfn /usr/local/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
+
+openjdk is keg-only, which means it was not symlinked into /usr/local,
+because it shadows the macOS `java` wrapper.
+
+If you need to have openjdk first in your PATH run:
+  echo 'export PATH="/usr/local/opt/openjdk/bin:$PATH"' >> ~/.zshrc
+
+For compilers to find openjdk you may need to set:
+  export CPPFLAGS="-I/usr/local/opt/openjdk/include"
+
+==> Summary
+🍺  /usr/local/Cellar/openjdk/14.0.1: 634 files, 319.1MB
+==> Installing maven
+🍺  /usr/local/Cellar/maven/3.6.3_1: 87 files, 10.7MB, built in 4 seconds
+==> Caveats
+==> openjdk
+For the system Java wrappers to find this JDK, symlink it with
+  sudo ln -sfn /usr/local/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
+
+openjdk is keg-only, which means it was not symlinked into /usr/local,
+because it shadows the macOS `java` wrapper.
+
+If you need to have openjdk first in your PATH run:
+  echo 'export PATH="/usr/local/opt/openjdk/bin:$PATH"' >> ~/.zshrc
+
+For compilers to find openjdk you may need to set:
+  export CPPFLAGS="-I/usr/local/opt/openjdk/include"
+
+We are now going to install tomcat, the java web server we will use for this course
+
+Press Enter to continue or Ctrl-C to exit
+
+Updating Homebrew...
+==> Downloading https://www.apache.org/dyn/closer.lua?path=tomcat/tomcat-9/v9.0.
+==> Downloading from https://mirrors.gigenet.com/apache/tomcat/tomcat-9/v9.0.39/
+######################################################################## 100.0%
+==> Caveats
+To have launchd start tomcat now and restart at login:
+  brew services start tomcat
+Or, if you don't want/need a background service you can just run:
+  catalina run
+==> Summary
+🍺  /usr/local/Cellar/tomcat/9.0.39: 634 files, 14.9MB, built in 3 seconds
+We are now going to install and configure MySQL, the database managment system we will
+use for this course.
+We will lock down your local MySQL install so that only you can only access it
+from this computer
+
+Press Enter to continue or Ctrl-C to exit
+
+==> Downloading https://homebrew.bintray.com/bottles/openssl%401.1-1.1.1h.catali
+==> Downloading from https://d29vzk4ow07wi7.cloudfront.net/4e5357c0cfd55cfa4ef0b
+######################################################################## 100.0%
+==> Downloading https://homebrew.bintray.com/bottles/protobuf-3.13.0.catalina.bo
+==> Downloading from https://d29vzk4ow07wi7.cloudfront.net/af2990ba0a6e5588ef2af
+######################################################################## 100.0%
+==> Downloading https://homebrew.bintray.com/bottles/mysql-8.0.21_1.catalina.bot
+==> Downloading from https://d29vzk4ow07wi7.cloudfront.net/81e92d0df39edaff415e7
+######################################################################## 100.0%
+==> Installing dependencies for mysql: openssl@1.1 and protobuf
+==> Installing mysql dependency: openssl@1.1
+==> Pouring openssl@1.1-1.1.1h.catalina.bottle.tar.gz
+==> Caveats
+A CA file has been bootstrapped using certificates from the system
+keychain. To add additional certificates, place .pem files in
+  /usr/local/etc/openssl@1.1/certs
+
+and run
+  /usr/local/opt/openssl@1.1/bin/c_rehash
+
+openssl@1.1 is keg-only, which means it was not symlinked into /usr/local,
+because macOS provides LibreSSL.
+
+If you need to have openssl@1.1 first in your PATH run:
+  echo 'export PATH="/usr/local/opt/openssl@1.1/bin:$PATH"' >> ~/.zshrc
+
+For compilers to find openssl@1.1 you may need to set:
+  export LDFLAGS="-L/usr/local/opt/openssl@1.1/lib"
+  export CPPFLAGS="-I/usr/local/opt/openssl@1.1/include"
+
+==> Summary
+🍺  /usr/local/Cellar/openssl@1.1/1.1.1h: 8,067 files, 18.5MB
+==> Installing mysql dependency: protobuf
+==> Pouring protobuf-3.13.0.catalina.bottle.tar.gz
+==> Caveats
+Emacs Lisp files have been installed to:
+  /usr/local/share/emacs/site-lisp/protobuf
+==> Summary
+🍺  /usr/local/Cellar/protobuf/3.13.0: 266 files, 19.8MB
+==> Installing mysql
+==> Pouring mysql-8.0.21_1.catalina.bottle.tar.gz
+==> /usr/local/Cellar/mysql/8.0.21_1/bin/mysqld --initialize-insecure --user=tho
+==> Caveats
+We've installed your MySQL database without a root password. To secure it run:
+    mysql_secure_installation
+
+MySQL is configured to only allow connections from localhost by default
+
+To connect run:
+    mysql -uroot
+
+To have launchd start mysql now and restart at login:
+  brew services start mysql
+Or, if you don't want/need a background service you can just run:
+  mysql.server start
+==> Summary
+🍺  /usr/local/Cellar/mysql/8.0.21_1: 290 files, 291.2MB
+==> Caveats
+==> openssl@1.1
+A CA file has been bootstrapped using certificates from the system
+keychain. To add additional certificates, place .pem files in
+  /usr/local/etc/openssl@1.1/certs
+
+and run
+  /usr/local/opt/openssl@1.1/bin/c_rehash
+
+openssl@1.1 is keg-only, which means it was not symlinked into /usr/local,
+because macOS provides LibreSSL.
+
+If you need to have openssl@1.1 first in your PATH run:
+  echo 'export PATH="/usr/local/opt/openssl@1.1/bin:$PATH"' >> ~/.zshrc
+
+For compilers to find openssl@1.1 you may need to set:
+  export LDFLAGS="-L/usr/local/opt/openssl@1.1/lib"
+  export CPPFLAGS="-I/usr/local/opt/openssl@1.1/include"
+
+==> protobuf
+Emacs Lisp files have been installed to:
+  /usr/local/share/emacs/site-lisp/protobuf
+==> mysql
+We've installed your MySQL database without a root password. To secure it run:
+    mysql_secure_installation
+
+MySQL is configured to only allow connections from localhost by default
+
+To connect run:
+    mysql -uroot
+
+To have launchd start mysql now and restart at login:
+  brew services start mysql
+Or, if you don't want/need a background service you can just run:
+  mysql.server start
+Starting MySQL
+. SUCCESS! 
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PASSWORD('codeup')' at line 1
+We are now going to install node, which lets us execute javascript outside
+of the browser, and gives us access to the node package manager, npm
+Updating Homebrew...
+==> Downloading https://homebrew.bintray.com/bottles/icu4c-67.1.catalina.bottle.
+==> Downloading from https://d29vzk4ow07wi7.cloudfront.net/2d1e91b5127f66e794179
+######################################################################## 100.0%
+==> Downloading https://homebrew.bintray.com/bottles/node-14.13.1_1.catalina.bot
+==> Downloading from https://d29vzk4ow07wi7.cloudfront.net/2f3555e90de308f24f5b9
+######################################################################## 100.0%
+==> Installing dependencies for node: icu4c
+==> Installing node dependency: icu4c
+==> Pouring icu4c-67.1.catalina.bottle.tar.gz
+==> Caveats
+icu4c is keg-only, which means it was not symlinked into /usr/local,
+because macOS provides libicucore.dylib (but nothing else).
+
+If you need to have icu4c first in your PATH run:
+  echo 'export PATH="/usr/local/opt/icu4c/bin:$PATH"' >> ~/.zshrc
+  echo 'export PATH="/usr/local/opt/icu4c/sbin:$PATH"' >> ~/.zshrc
+
+For compilers to find icu4c you may need to set:
+  export LDFLAGS="-L/usr/local/opt/icu4c/lib"
+  export CPPFLAGS="-I/usr/local/opt/icu4c/include"
+
+==> Summary
+🍺  /usr/local/Cellar/icu4c/67.1: 258 files, 71.2MB
+==> Installing node
+==> Pouring node-14.13.1_1.catalina.bottle.tar.gz
+==> Caveats
+Bash completion has been installed to:
+  /usr/local/etc/bash_completion.d
+==> Summary
+🍺  /usr/local/Cellar/node/14.13.1_1: 4,698 files, 62.0MB
+==> Caveats
+==> icu4c
+icu4c is keg-only, which means it was not symlinked into /usr/local,
+because macOS provides libicucore.dylib (but nothing else).
+
+If you need to have icu4c first in your PATH run:
+  echo 'export PATH="/usr/local/opt/icu4c/bin:$PATH"' >> ~/.zshrc
+  echo 'export PATH="/usr/local/opt/icu4c/sbin:$PATH"' >> ~/.zshrc
+
+For compilers to find icu4c you may need to set:
+  export LDFLAGS="-L/usr/local/opt/icu4c/lib"
+  export CPPFLAGS="-I/usr/local/opt/icu4c/include"
+
+==> node
+Bash completion has been installed to:
+  /usr/local/etc/bash_completion.d
+fatal: unable to read config file '/Users/thomasmccool/.gitconfig': No such file or directory
+Setting up global gitignore file...
+Setting default git editor to nano...
+Ok! We've gotten everything setup and you should be ready to go!
+Good luck in class!
+
+	 _____		 _____		   _				  _ 
+	|  __ \	   /  __ \		 | |				| |
+	| |  \/ ___   | /  \/ ___   __| | ___ _   _ _ __ | |
+	| | __ / _ \  | |	/ _ \ / _  |/ _ \ | | | '_ \| |
+	| |_\ \ (_) | | \__/\ (_) | (_| |  __/ |_| | |_) |_|
+	 \____/\___/   \____/\___/ \__,_|\___|\__,_| .__/(_)
+										   | |	  
+										   |_|	  
+thomasmccool@thomass-mbp ~ % 
+  [Restored Oct 14, 2020 at 9:13:34 AM]
+Last login: Wed Oct 14 09:13:13 on console
+thomasmccool@thomass-mbp ~ % brew doctor
+Your system is ready to brew.
+thomasmccool@thomass-mbp ~ % cd Documents/100-days-of-code
+thomasmccool@thomass-mbp 100-days-of-code % git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   log.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+thomasmccool@thomass-mbp 100-days-of-code % git add log.md
+thomasmccool@thomass-mbp 100-days-of-code % git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   log.md
+
+thomasmccool@thomass-mbp 100-days-of-code % git commit -m "1st commit; commented out examples on log and started my log. first 3 days."
+[master 3346da5] 1st commit; commented out examples on log and started my log. first 3 days.
+ Committer: Thomas McCool <thomasmccool@thomass-mbp.lan>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 30 insertions(+)
+thomasmccool@thomass-mbp 100-days-of-code % open git config
+The files /Users/thomasmccool/Documents/100-days-of-code/git and /Users/thomasmccool/Documents/100-days-of-code/config do not exist.
+thomasmccool@thomass-mbp 100-days-of-code % open ~git/git config
+zsh: no such user or named directory: git
+thomasmccool@thomass-mbp 100-days-of-code % git push orgin master
+fatal: 'orgin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+thomasmccool@thomass-mbp 100-days-of-code % git push origin master
+Warning: Permanently added the RSA host key for IP address '140.82.113.3' to the list of known hosts.
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 803 bytes | 803.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To github.com:tjmccool1/100-days-of-code.git
+   d19946c..3346da5  master -> master
+thomasmccool@thomass-mbp 100-days-of-code % git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+thomasmccool@thomass-mbp 100-days-of-code % git branch mine
+thomasmccool@thomass-mbp 100-days-of-code % git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+thomasmccool@thomass-mbp 100-days-of-code % git checkout mine
+Switched to branch 'mine'
+thomasmccool@thomass-mbp 100-days-of-code % git status
+On branch mine
+nothing to commit, working tree clean
+thomasmccool@thomass-mbp 100-days-of-code % git status
+On branch mine
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   log.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+thomasmccool@thomass-mbp 100-days-of-code % git add log.md
+thomasmccool@thomass-mbp 100-days-of-code % git commit -m "1st commit on my brach. see how it goes.
+dquote> "
+[mine 004a530] 1st commit on my brach. see how it goes.
+ Committer: Thomas McCool <thomasmccool@thomass-mbp.lan>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 11 insertions(+), 1 deletion(-)
+thomasmccool@thomass-mbp 100-days-of-code % git status
+On branch mine
+nothing to commit, working tree clean
+thomasmccool@thomass-mbp 100-days-of-code % git push -u origin mine 
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 442 bytes | 442.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+remote: 
+remote: Create a pull request for 'mine' on GitHub by visiting:
+remote:      https://github.com/tjmccool1/100-days-of-code/pull/new/mine
+remote: 
+To github.com:tjmccool1/100-days-of-code.git
+ * [new branch]      mine -> mine
+Branch 'mine' set up to track remote branch 'mine' from 'origin'.
+thomasmccool@thomass-mbp 100-days-of-code % git status
+On branch mine
+Your branch is up to date with 'origin/mine'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   log.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+thomasmccool@thomass-mbp 100-days-of-code % git add .
+thomasmccool@thomass-mbp 100-days-of-code % git commit -m "2nd on my branch, forgot why i didn't commit earlier"
+[mine 1487045] 2nd on my branch, forgot why i didn't commit earlier
+ Committer: Thomas McCool <thomasmccool@thomass-mbp.lan>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 3 insertions(+)
+thomasmccool@thomass-mbp 100-days-of-code % git push origin mine
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 327 bytes | 327.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To github.com:tjmccool1/100-days-of-code.git
+   004a530..1487045  mine -> mine
+thomasmccool@thomass-mbp 100-days-of-code % 
