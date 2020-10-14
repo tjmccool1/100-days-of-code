@@ -57,6 +57,9 @@ git commit -m "comments"
 Oh and now i remember to create my own branch.
 git branch mine
 git checkout mine
+git status
+git add log.md
+git commit -m "comments"
 
 
 
