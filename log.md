@@ -1,6 +1,6 @@
 # 100 Days Of Code - Log
 
-<!-- 
+<!--
 ### Day 0: February 30, 2016 (Example 1)
 ##### (delete me or comment me out)
 
@@ -46,9 +46,9 @@
 
 ### Day 2: 14 October 2020
 
-**Today's Progress:** figured out a bit of markdown lang again; making first commit in a long time. 
+**Today's Progress:** figured out a bit of markdown lang again; making first commit in a long time.
 
-**Thoughts:** now i wonder if i remember how.... 
+**Thoughts:** now i wonder if i remember how....
 
 cd Documents/100-days-of-code
 git status
@@ -61,13 +61,24 @@ git status
 git add log.md
 git commit -m "comments"
 
+### Day 3: 15 October 2020
+
+**Today's Progress:** well ended up reading today instead of actually coding. arggghhhh
+
+**Thoughts:** none for today.
+
+### Day 4: 16 October 2020
+
+**Today's Progress:** started working Hacker1 CTF.  completed 50% of FreeCodeCamp HTML lessons. creating template for this log
+
+**Thoughts:**  definitely need alot of refresher. it felt good to try some hacking and remebering some tools. and HTML is pretty easy. HTML is comming back pretty quick. really like Atom for my editor
 
 
+<!-- Write Log Above -->
+<!-- Daily Template
+### Day 4: 16 October 2020
 
+**Today's Progress:**
 
-
-
-
-
-
-
+**Thoughts:**   
+ -->
