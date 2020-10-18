@@ -73,6 +73,12 @@ git commit -m "comments"
 
 **Thoughts:**  definitely need alot of refresher. it felt good to try some hacking and remebering some tools. and HTML is pretty easy. HTML is comming back pretty quick. really like Atom for my editor
 
+### Day 4: 17 October 2020
+
+**Today's Progress:** completed the FreeCodeCamp HTML section. stared going back through Codeup's course work.
+
+**Thoughts:** really enjoying coding again. it seems like it is starting to motivate me to get started moving on the other good habbits that i had and want to get doing again(running, healthy eating, reading, training and riding horses, training dogs, romancing my beautiful wife). now to get building a schedule.
+
 
 <!-- Write Log Above -->
 <!-- Daily Template
