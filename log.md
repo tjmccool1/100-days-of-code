@@ -79,6 +79,12 @@ git commit -m "comments"
 
 **Thoughts:** really enjoying coding again. it seems like it is starting to motivate me to get started moving on the other good habbits that i had and want to get doing again(running, healthy eating, reading, training and riding horses, training dogs, romancing my beautiful wife). now to get building a schedule.
 
+### Day 5: 18 October 2020
+
+**Today's Progress:** completed Codeup HTML exercise 2 part 1.
+
+**Thoughts:** actually went a lot easier than it did when i went through class. also remembered that i should probably start working on typing again. man, i really like atom. 
+
 
 <!-- Write Log Above -->
 <!-- Daily Template
