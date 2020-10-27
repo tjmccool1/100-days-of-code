@@ -83,7 +83,63 @@ git commit -m "comments"
 
 **Today's Progress:** completed Codeup HTML exercise 2 part 1.
 
-**Thoughts:** actually went a lot easier than it did when i went through class. also remembered that i should probably start working on typing again. man, i really like atom. 
+**Thoughts:** actually went a lot easier than it did when i went through class. also remembered that i should probably start working on typing again. man, i really like atom.
+
+### Day 6: 19 October 2020
+
+**Today's Progress:**
+
+**Thoughts:**   
+
+### Day 7: 20 October 2020
+
+**Today's Progress:**
+
+**Thoughts:**
+
+### Day 8: 21 October 2020
+
+**Today's Progress:**
+
+**Thoughts:**
+
+### Day 9: 22 October 2020
+
+**Today's Progress:**
+
+**Thoughts:**
+
+### Day 10: 23 October 2020
+
+**Today's Progress:**
+
+**Thoughts:**
+
+### Day 11: 24 October 2020
+
+**Today's Progress:**
+
+**Thoughts:**
+
+### Day 12: 25 October 2020
+
+**Today's Progress:**
+
+**Thoughts:**
+
+### Day 1: 26 October 2020
+
+**Today's Progress:** restart missed to many days
+
+**Thoughts:**   waiting on vet to come out and check bailey
+got back into horses and missed alot of days. trying to get a schedule down since i have more to do than code.
+
+### Day 2: 27 October 2020
+
+**Today's Progress:** worked on forms exercise with CU and started relearning CSS.
+
+**Thoughts:**  cold weather has hit. rode horse(Luke) this morning. then worked on gettin the gate for stable fixed...finished taking acuatour arm apart. parts come in thursday.
+
 
 
 <!-- Write Log Above -->
